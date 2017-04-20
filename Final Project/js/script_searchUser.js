@@ -20,7 +20,7 @@
                         var height = jsonResponse.height;
                         var newHtml = "";
                         newHtml += "<p><b> Name:</b> " + fullName + " </p> <p> <b> Email:</b> " + email + "</p> <p> <b> Age:</b> " + age + "</p> <p> <b> Weight:</b> " + weight + " kg</p> <p> <b> Height:</b> " + height + " meters</p>";
-                        $("#results").append(newHtml);
+                        $("#results").html(newHtml);
                     }
             });
     });
