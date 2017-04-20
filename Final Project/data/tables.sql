@@ -15,5 +15,5 @@ CREATE TABLE Wods (
 	day date NOT NULL,
 	wod varchar(500) NOT NULL,
 	type varchar(5) NOT NULL,
-	PRIMARY KEY(ID)
+	PRIMARY KEY(ID, day)
 );
